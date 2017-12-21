@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.alexi.cst2335_finalproject.Dashboard">
+
+    <item
+        android:id="@+id/automobile"
+        android:orderInCategory="100"
+        android:title="Automobile"
+        android:icon="@drawable/auto_icon"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/nutrition"
+        android:orderInCategory="101"
+        android:title="Nutrition"
+        android:icon="@drawable/nutrition_icon"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/activity"
+        android:orderInCategory="102"
+        android:title="Activity"
+        android:icon="@drawable/activity_icon"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/thermostat"
+        android:orderInCategory="103"
+        android:title="Thermostat"
+        android:icon="@drawable/thermostat_icon"
+        app:showAsAction="always"/>
+
+</menu>
